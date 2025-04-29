@@ -12,7 +12,7 @@ BREEZE Management System este o aplicație CLI pentru administrarea participanț
         brew install nlohmann-json
 
    Compilare:
-        g++ -std=c++17 -I/usr/local/include -I. *.cpp -o breeze
+         g++ -std=c++17 -I/opt/homebrew/include -I. *.cpp -o breeze
 
    Rulare:
         ./breeze
@@ -82,7 +82,15 @@ BREEZE Management System este o aplicație CLI pentru administrarea participanț
         - Cod bilet: BREEZE-GA-123456789
         - Sumă: 30 lei ➔ brățară client = 70 lei, cont partener = +30 lei
 
-5. NOTĂ FINALĂ
+5. SURSE 
+     https://www.geeksforgeeks.org/dynamic-_cast-in-cpp/
+     https://learn.microsoft.com/en-us/cpp/cpp/dynamic-cast-operator?view=msvc-170
+     https://github.com/nlohmann/json?tab=readme-ov-file#json-pointer-and-json-patch
+     https://en.cppreference.com/w/cpp/container/vector
+     https://cplusplus.com/reference/algorithm/
+     https://github.com/mcmarius/poo/blob/master/README.md
+
+6. NOTĂ FINALĂ
    Toate datele persistă în fișiere JSON între rulări. Proiectul este modular, ușor extensibil cu noi roluri, validări sau integrare API.
 
 © 2025 BREEZE Management System. Toate drepturile rezervate.
